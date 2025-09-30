@@ -5,12 +5,13 @@ body {
 .airbnb-card {
   display: flex;
   flex-direction: column;
-  width: 10rem;
+  width: 11rem;
+  cursor: pointer;
 }
 
 .card-img-container {
-  width: 10rem;
-  height: 10rem;
+  width: 11rem;
+  height: 11rem;
 }
 
 .card-img-container img {
@@ -31,7 +32,7 @@ body {
 }
 
 .card-info p {
-  font-size: 12px;
+  font-size: 11px;
   color: #6a6a6a;
   margin: 0;
 }
@@ -48,6 +49,10 @@ body {
 .heart-container {
   top: 7px;
   right: 12px;
+}
+
+.heart-container:hover {
+  transform: scale(1.1);
 }
 
 .heart-container svg {
