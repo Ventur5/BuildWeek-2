@@ -1,12 +1,15 @@
 .logo {
     width: 120px;
 }
+
 .content {
+    width: 100%;
+
+}
+
+.imgTitle {
+
    width: 100%;
-
+    object-fit: cover;
+    
 }
-.imgTitle{
-    object-fit: contain;
-}
-
-
