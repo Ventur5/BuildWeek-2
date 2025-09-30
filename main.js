@@ -119,7 +119,7 @@ const romeRooms = [
     roomPrice: "54€ per 2 notti",
     roomRating: "★ 4,16",
     isLovedByGuests: true,
-  }
+  },
 ];
 const milanRooms = [
   {
@@ -242,7 +242,7 @@ const milanRooms = [
     roomPrice: "254€ per 2 notti",
     roomRating: "★ 4,96",
     isLovedByGuests: true,
-  }
+  },
 ];
 
 const turinRooms = [
@@ -368,7 +368,6 @@ const turinRooms = [
     roomRating: "★ 4,75",
     isLovedByGuests: false,
   },
-
 ];
 
 const swiperSlideRome = document.querySelector(".swiper-slide-rome");
@@ -376,7 +375,6 @@ const swiperSlideMilan = document.querySelector(".swiper-slide-milan");
 const swiperSlideTurin = document.querySelector(".swiper-slide-turin");
 
 function createAndAppendCard(room, container) {
-
   const airbnbCard = document.createElement("div");
   airbnbCard.classList.add("airbnb-card", "position-relative");
   container.appendChild(airbnbCard);
@@ -433,16 +431,24 @@ function createAndAppendCard(room, container) {
   cardInfoSecondContainer.appendChild(cardRating);
 
   const badgeHeartContainer = document.createElement("div");
-  badgeHeartContainer.classList.add("d-flex", "justify-content-between", "align-items-center", "position-absolute", "badge-hearth-container");
+  badgeHeartContainer.classList.add(
+    "d-flex",
+    "justify-content-between",
+    "align-items-center",
+    "position-absolute",
+    "badge-hearth-container"
+  );
   airbnbCard.appendChild(badgeHeartContainer);
 
   if (room.isLovedByGuests) {
-
     const cardBadge = document.createElement("p");
-    cardBadge.classList.add("m-0", "position-absolute", "loved-by-guests-badge");
+    cardBadge.classList.add(
+      "m-0",
+      "position-absolute",
+      "loved-by-guests-badge"
+    );
     cardBadge.innerText = "Amato dagli ospiti";
     airbnbCard.appendChild(cardBadge);
-
   }
 
   const cardHeartContainer = document.createElement("div");
@@ -455,17 +461,16 @@ function createAndAppendCard(room, container) {
        c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
           </svg>`;
   airbnbCard.appendChild(cardHeartContainer);
-
-};
+}
 
 romeRooms.forEach((room) => {
   createAndAppendCard(room, swiperSlideRome);
 });
 
 milanRooms.forEach((room) => {
-  createAndAppendCard(room, swiperSlideMilan)
-})
+  createAndAppendCard(room, swiperSlideMilan);
+});
 
 turinRooms.forEach((room) => {
-  createAndAppendCard(room, swiperSlideTurin)
-})
+  createAndAppendCard(room, swiperSlideTurin);
+});
