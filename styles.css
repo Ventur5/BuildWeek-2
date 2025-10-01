@@ -4,11 +4,9 @@ body {
 
 .navbar {
   background: #ffffff;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(240, 240, 240, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(240, 240, 240, 1) 100%);
 }
 
 .navbar-brand img {
@@ -52,6 +50,7 @@ body {
 .navbarbtn-text {
   margin-top: 0.5rem;
 }
+
 .navbar-lastbtn {
   display: flex;
   gap: 20px;
@@ -151,7 +150,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-#toggleMenu:checked + .dropdown-toggle + .dropdown-menu {
+#toggleMenu:checked+.dropdown-toggle+.dropdown-menu {
   display: block;
 }
 
@@ -176,6 +175,7 @@ body {
 .second-navbar-item input[type="date"] {
   border: none;
 }
+
 .airbnb-card {
   display: flex;
   flex-direction: column;
@@ -240,6 +240,14 @@ body {
   stroke-width: 1;
 }
 
+.swiper-slide {
+  height: 100%;
+  font-size: 18px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 footer .top-footer ul,
 footer .down-footer ul {
   list-style: none;
@@ -312,6 +320,4 @@ footer .down-footer p {
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
- 
- 
 }

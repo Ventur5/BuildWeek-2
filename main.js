@@ -121,130 +121,6 @@ const romeRooms = [
     isLovedByGuests: true,
   },
 ];
-const milanRooms = [
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ5Nzk2Mjc3NTk2MjM4OTM5/original/6cf1870e-f0c7-4fac-8fa1-ae57ed5e2713.jpeg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Appartamento · San Siro",
-    roomDate: "19-21 oct",
-    roomHost: "Host privato",
-    roomPrice: "182€ per 2 notti",
-    roomRating: "★ 4,93",
-    isLovedByGuests: true,
-  },
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/miso/Hosting-49764547/original/e872d522-3fbc-44d0-be0e-4193820f9d66.jpeg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Casa · Milano",
-    roomDate: "16-18 oct",
-    roomHost: "Host privato",
-    roomPrice: "196€ per 2 notti",
-    roomRating: "★ 4,46",
-    isLovedByGuests: false,
-  },
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/miso/Hosting-1271486858891622173/original/bbf6ed8f-49bd-46d7-a486-0d303f2120e8.jpeg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Appartamento · Ospiate",
-    roomDate: "15-17 nov",
-    roomHost: "Host professionista",
-    roomPrice: "298€ per 2 notti",
-    roomRating: "★ 4,92",
-    isLovedByGuests: true,
-  },
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ2NzM5ODIwNTU0MDkwNzU0NQ==/original/2bf775f1-9f7f-428e-8db9-ea8320c51924.jpeg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Stanza · Milano",
-    roomDate: "03-05 oct",
-    roomHost: "Host professionista",
-    roomPrice: "94€ per 2 notti",
-    roomRating: "★ 4,95",
-    isLovedByGuests: true,
-  },
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/ce9f5c8d-f25c-4f6f-8e82-c97d58a23858.jpg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Appartamento · Milano",
-    roomDate: "15-17 oct",
-    roomHost: "Host professionista",
-    roomPrice: "215€ per 2 notti",
-    roomRating: "★ 4,96",
-    isLovedByGuests: false,
-  },
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/miso/Hosting-1701780/original/fd6c90b5-f027-475d-a491-8f429424ea1c.jpeg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Appartamento · San Siro",
-    roomDate: "06-08 oct",
-    roomHost: "Host privato",
-    roomPrice: "199€ per 2 notti",
-    roomRating: "★ 4,53",
-    isLovedByGuests: true,
-  },
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/hosting/Hosting-1339054623996283816/original/ac3c4fb3-2f05-4d3c-b92e-996f05816a45.jpeg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Appartamento · Cusano",
-    roomDate: "13-15 oct",
-    roomHost: "Host professionista",
-    roomPrice: "248€ per 2 notti",
-    roomRating: "★ 4,98",
-    isLovedByGuests: true,
-  },
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/hosting/Hosting-1339054623996283816/original/ac3c4fb3-2f05-4d3c-b92e-996f05816a45.jpeg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Appartamento · Navigli",
-    roomDate: "22-24 oct",
-    roomHost: "Host privato",
-    roomPrice: "287€ per 2 notti",
-    roomRating: "★ 4,54",
-    isLovedByGuests: true,
-  },
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA0NTU3MzM3NDE3MTY0MTMzMw==/original/0131e924-be12-43fc-9eed-b24b9ce882a7.jpeg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Appartamento · Milano",
-    roomDate: "19-21 oct",
-    roomHost: "Host professionista",
-    roomPrice: "213€ per 2 notti",
-    roomRating: "★ 4,16",
-    isLovedByGuests: true,
-  },
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/miso/Hosting-1701780/original/fd6c90b5-f027-475d-a491-8f429424ea1c.jpeg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Stanza · San Siro",
-    roomDate: "28-30 oct",
-    roomHost: "Host privato",
-    roomPrice: "125€ per 2 notti",
-    roomRating: "★ 4,35",
-    isLovedByGuests: false,
-  },
-  {
-    imgSrc:
-      "https://a0.muscache.com/im/pictures/miso/Hosting-720789065652443945/original/92aebe1c-5cb7-493f-b9d5-cd1270c991a5.jpeg?im_w=720",
-    imgAlt: "room picture",
-    roomTitle: "Appartamento · Milano",
-    roomDate: "19-21 oct",
-    roomHost: "Host professionista",
-    roomPrice: "254€ per 2 notti",
-    roomRating: "★ 4,96",
-    isLovedByGuests: true,
-  },
-];
-
 const turinRooms = [
   {
     imgSrc:
@@ -369,15 +245,143 @@ const turinRooms = [
     isLovedByGuests: false,
   },
 ];
+const milanRooms = [
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODQ5Nzk2Mjc3NTk2MjM4OTM5/original/6cf1870e-f0c7-4fac-8fa1-ae57ed5e2713.jpeg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Appartamento · San Siro",
+    roomDate: "19-21 oct",
+    roomHost: "Host privato",
+    roomPrice: "182€ per 2 notti",
+    roomRating: "★ 4,93",
+    isLovedByGuests: true,
+  },
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/miso/Hosting-49764547/original/e872d522-3fbc-44d0-be0e-4193820f9d66.jpeg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Casa · Milano",
+    roomDate: "16-18 oct",
+    roomHost: "Host privato",
+    roomPrice: "196€ per 2 notti",
+    roomRating: "★ 4,46",
+    isLovedByGuests: false,
+  },
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1271486858891622173/original/bbf6ed8f-49bd-46d7-a486-0d303f2120e8.jpeg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Appartamento · Ospiate",
+    roomDate: "15-17 nov",
+    roomHost: "Host professionista",
+    roomPrice: "298€ per 2 notti",
+    roomRating: "★ 4,92",
+    isLovedByGuests: true,
+  },
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ2NzM5ODIwNTU0MDkwNzU0NQ==/original/2bf775f1-9f7f-428e-8db9-ea8320c51924.jpeg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Stanza · Milano",
+    roomDate: "03-05 oct",
+    roomHost: "Host professionista",
+    roomPrice: "94€ per 2 notti",
+    roomRating: "★ 4,95",
+    isLovedByGuests: true,
+  },
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/ce9f5c8d-f25c-4f6f-8e82-c97d58a23858.jpg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Appartamento · Milano",
+    roomDate: "15-17 oct",
+    roomHost: "Host professionista",
+    roomPrice: "215€ per 2 notti",
+    roomRating: "★ 4,96",
+    isLovedByGuests: false,
+  },
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1701780/original/fd6c90b5-f027-475d-a491-8f429424ea1c.jpeg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Appartamento · San Siro",
+    roomDate: "06-08 oct",
+    roomHost: "Host privato",
+    roomPrice: "199€ per 2 notti",
+    roomRating: "★ 4,53",
+    isLovedByGuests: true,
+  },
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1339054623996283816/original/ac3c4fb3-2f05-4d3c-b92e-996f05816a45.jpeg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Appartamento · Cusano",
+    roomDate: "13-15 oct",
+    roomHost: "Host professionista",
+    roomPrice: "248€ per 2 notti",
+    roomRating: "★ 4,98",
+    isLovedByGuests: true,
+  },
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1339054623996283816/original/ac3c4fb3-2f05-4d3c-b92e-996f05816a45.jpeg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Appartamento · Navigli",
+    roomDate: "22-24 oct",
+    roomHost: "Host privato",
+    roomPrice: "287€ per 2 notti",
+    roomRating: "★ 4,54",
+    isLovedByGuests: true,
+  },
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA0NTU3MzM3NDE3MTY0MTMzMw==/original/0131e924-be12-43fc-9eed-b24b9ce882a7.jpeg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Appartamento · Milano",
+    roomDate: "19-21 oct",
+    roomHost: "Host professionista",
+    roomPrice: "213€ per 2 notti",
+    roomRating: "★ 4,16",
+    isLovedByGuests: true,
+  },
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1701780/original/fd6c90b5-f027-475d-a491-8f429424ea1c.jpeg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Stanza · San Siro",
+    roomDate: "28-30 oct",
+    roomHost: "Host privato",
+    roomPrice: "125€ per 2 notti",
+    roomRating: "★ 4,35",
+    isLovedByGuests: false,
+  },
+  {
+    imgSrc:
+      "https://a0.muscache.com/im/pictures/miso/Hosting-720789065652443945/original/92aebe1c-5cb7-493f-b9d5-cd1270c991a5.jpeg?im_w=720",
+    imgAlt: "room picture",
+    roomTitle: "Appartamento · Milano",
+    roomDate: "19-21 oct",
+    roomHost: "Host professionista",
+    roomPrice: "254€ per 2 notti",
+    roomRating: "★ 4,96",
+    isLovedByGuests: true,
+  },
+];
 
-const swiperSlideRome = document.querySelector(".swiper-slide-rome");
-const swiperSlideMilan = document.querySelector(".swiper-slide-milan");
-const swiperSlideTurin = document.querySelector(".swiper-slide-turin");
+const swiperWrapperRome = document.querySelector(".swiper-wrapper-rome");
+const swiperWrapperTurin = document.querySelector(".swiper-wrapper-turin");
+const swiperWrapperMilan = document.querySelector(".swiper-wrapper-milan");
 
 function createAndAppendCard(room, container) {
+
+  const swiperSlide = document.createElement("div");
+  swiperSlide.classList.add("swiper-slide");
+  container.appendChild(swiperSlide);
+
   const airbnbCard = document.createElement("div");
   airbnbCard.classList.add("airbnb-card", "position-relative");
-  container.appendChild(airbnbCard);
+  swiperSlide.appendChild(airbnbCard);
 
   const cardImgContainer = document.createElement("div");
   cardImgContainer.classList.add("card-img-container");
@@ -461,21 +465,46 @@ function createAndAppendCard(room, container) {
        c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
           </svg>`;
   airbnbCard.appendChild(cardHeartContainer);
-}
+};
 
-romeRooms.forEach((room) => {
-  createAndAppendCard(room, swiperSlideRome);
+const romeSwiper = new Swiper(".rome-swiper", {
+  navigation: {
+    nextEl: ".rome-right-arrow",
+    prevEl: ".rome-left-arrow",
+  },
+
+  slidesPerView: 4,
 });
 
-milanRooms.forEach((room) => {
-  createAndAppendCard(room, swiperSlideMilan);
+const turinSwiper = new Swiper(".turin-swiper", {
+  navigation: {
+    nextEl: ".turin-right-arrow",
+    prevEl: ".turin-left-arrow",
+  },
+
+  slidesPerView: 4,
+});
+
+const milanSwiper = new Swiper(".milan-swiper", {
+  navigation: {
+    nextEl: ".milan-right-arrow",
+    prevEl: ".milan-left-arrow",
+  },
+
+  slidesPerView: 4,
+});
+
+romeRooms.forEach((room) => {
+  createAndAppendCard(room, swiperWrapperRome);
 });
 
 turinRooms.forEach((room) => {
-  createAndAppendCard(room, swiperSlideTurin);
+  createAndAppendCard(room, swiperWrapperTurin);
 });
 
-
+milanRooms.forEach((room) => {
+  createAndAppendCard(room, swiperWrapperMilan);
+});
 
 const btnModalLanguage = document.getElementById("button-language");
 const modalLanguage = document.querySelector(".modal-language");
