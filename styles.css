@@ -112,10 +112,18 @@ body {
 .second-navbar-item{
     border-left: 1px solid #3a3a3a;
     padding: 10px 15px;
+    transition: .3s;
 }
 
 .second-navbar-item:first-child {
     border-left: none;
+}
+
+.second-navbar-item:hover {
+    background-color: #ececec;
+    border-radius: 50px;
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
 }
 
 .second-navbar-item img {
@@ -199,7 +207,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-color: transparent;
     
 }
-
+/*CSS DI ALESSANDRO E SARA DEDICATO AL "feature/arraycard*/
 .airbnb-card {
   display: flex;
   flex-direction: column;
