@@ -239,3 +239,29 @@ body {
   stroke: white;
   stroke-width: 1;
 }
+
+
+
+
+
+
+footer .top-footer ul, footer .down-footer ul{
+  list-style: none;
+  font-size: 12px;
+}
+footer .top-footer ul li{
+  padding-bottom: 12px;
+}
+footer .top-footer ul li:nth-of-type(1){
+  font-weight: bold;
+}
+footer .top-footer ul li a, footer .down-footer ul li a{
+color: #000;
+text-decoration: none;
+margin: 0;
+}
+
+footer .down-footer ul, footer .down-footer p{
+  margin: 0;
+}
+
