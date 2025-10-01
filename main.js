@@ -30,12 +30,12 @@ function renderCalendar(){
     const firstDay = new Date(currentYear, currentMonth,1).getDate();
     const daysInMonth = new Date(currentYear,currentMonth +1,0 ).getDate();
 
-    calendarBody .innerHTML = '';
+    calendarBody.innerHTML = '';
 
     let date = 1;
 
     for (let i = 0; i < 6; i++) {
-        const tow = document.createElement('tr');
+        const row = document.createElement('tr');
 
         for (let x = 0; x < 7; x++) {
             if (i === 0 && x < firstDay) {
@@ -65,7 +65,7 @@ function renderCalendar(){
         renderCalendar();
       })
 
-      
+
     nextBtn.addEventListener('click',()=>{
         currentDate.setMonth(currentDate.getMonth()+1);
         renderCalendar();
