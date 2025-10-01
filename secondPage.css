@@ -13,3 +13,45 @@
     object-fit: cover;
     
 }
+.host1{
+
+    width: 50px;
+    overflow: hidden;
+}
+.host {
+    object-fit: contain;
+    width: 30px;
+
+}
+.calendar{
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#calendar-table{
+    width: 100%;
+}
+#calendar-table th, #calendar-table td{
+    padding: 10px;
+    text-align: center;
+}
+#prev-btn, #next-btn{
+    background-color: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+#month-year{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
